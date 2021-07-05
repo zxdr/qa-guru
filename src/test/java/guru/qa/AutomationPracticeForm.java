@@ -36,7 +36,7 @@ public class AutomationPracticeForm {
         String city = "Agra";
 
         open("/automation-practice-form");
-        $("* h5").shouldHave(text("Student Registration Form"));
+        $("div h5").shouldHave(text("Student Registration Form"));
 
         $("#firstName").setValue(firstName);
         $("#lastName").setValue(lastName);
