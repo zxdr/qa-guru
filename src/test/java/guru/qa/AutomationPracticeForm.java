@@ -76,6 +76,6 @@ public class AutomationPracticeForm {
         $x("//td[text()='State and City']/following-sibling::td").shouldHave(text(state + " " + city));
 
         $("#closeLargeModal").click();
-        $("* h5").shouldHave(text("Student Registration Form"));
+        $("div h5").shouldHave(text("Student Registration Form"));
     }
 }
